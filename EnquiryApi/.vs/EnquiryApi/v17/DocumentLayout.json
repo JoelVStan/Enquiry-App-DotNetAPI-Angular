@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|c:\\users\\joelk\\documents\\my projects\\enquiryapp\\enquiryapi\\enquiryapi\\controllers\\enquirymaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|solutionrelative:enquiryapi\\controllers\\enquirymaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|c:\\users\\joelk\\documents\\my projects\\enquiryapp\\enquiryapi\\enquiryapi\\models\\enquirymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|solutionrelative:enquiryapi\\models\\enquirymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|c:\\users\\joelk\\documents\\my projects\\enquiryapp\\enquiryapi\\enquiryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|solutionrelative:enquiryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|c:\\users\\joelk\\documents\\my projects\\enquiryapp\\enquiryapi\\enquiryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|solutionrelative:enquiryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|c:\\users\\joelk\\documents\\my projects\\enquiryapp\\enquiryapi\\enquiryapi\\models\\enquirytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|solutionrelative:enquiryapi\\models\\enquirytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|c:\\users\\joelk\\documents\\my projects\\enquiryapp\\enquiryapi\\enquiryapi\\models\\enquirydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|solutionrelative:enquiryapi\\models\\enquirydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|c:\\users\\joelk\\documents\\my projects\\enquiryapp\\enquiryapi\\enquiryapi\\models\\enquirystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33579BC6-E5BE-4D70-A053-7307475BBACA}|EnquiryApi\\EnquiryApi.csproj|solutionrelative:enquiryapi\\models\\enquirystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\Program.cs",
+              "RelativeDocumentMoniker": "EnquiryApi\\Program.cs",
+              "ToolTip": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\Program.cs",
+              "RelativeToolTip": "EnquiryApi\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T13:09:55.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnquiryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\Models\\EnquiryDbContext.cs",
+              "RelativeDocumentMoniker": "EnquiryApi\\Models\\EnquiryDbContext.cs",
+              "ToolTip": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\Models\\EnquiryDbContext.cs",
+              "RelativeToolTip": "EnquiryApi\\Models\\EnquiryDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T13:06:20.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnquiryModel.cs",
+              "DocumentMoniker": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\Models\\EnquiryModel.cs",
+              "RelativeDocumentMoniker": "EnquiryApi\\Models\\EnquiryModel.cs",
+              "ToolTip": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\Models\\EnquiryModel.cs",
+              "RelativeToolTip": "EnquiryApi\\Models\\EnquiryModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T13:23:07.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnquiryMaster.cs",
+              "DocumentMoniker": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\Controllers\\EnquiryMaster.cs",
+              "RelativeDocumentMoniker": "EnquiryApi\\Controllers\\EnquiryMaster.cs",
+              "ToolTip": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\Controllers\\EnquiryMaster.cs",
+              "RelativeToolTip": "EnquiryApi\\Controllers\\EnquiryMaster.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T13:56:08.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnquiryType.cs",
+              "DocumentMoniker": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\Models\\EnquiryType.cs",
+              "RelativeDocumentMoniker": "EnquiryApi\\Models\\EnquiryType.cs",
+              "ToolTip": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\Models\\EnquiryType.cs",
+              "RelativeToolTip": "EnquiryApi\\Models\\EnquiryType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T13:19:38.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnquiryStatus.cs",
+              "DocumentMoniker": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\Models\\EnquiryStatus.cs",
+              "RelativeDocumentMoniker": "EnquiryApi\\Models\\EnquiryStatus.cs",
+              "ToolTip": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\Models\\EnquiryStatus.cs",
+              "RelativeToolTip": "EnquiryApi\\Models\\EnquiryStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T13:16:32.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\appsettings.json",
+              "RelativeDocumentMoniker": "EnquiryApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\joelk\\Documents\\My Projects\\EnquiryApp\\EnquiryApi\\EnquiryApi\\appsettings.json",
+              "RelativeToolTip": "EnquiryApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-07T13:02:15.107Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

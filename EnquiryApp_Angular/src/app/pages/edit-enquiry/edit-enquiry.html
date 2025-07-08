@@ -1,0 +1,141 @@
+<div class="parent">
+        <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <div class="form-container">
+                    <div class="form-header">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h1>Edit Your Enquiry</h1>
+                        <p>We're here to help. Please fill out the form below and we'll get back to you as soon as possible.</p>
+                    </div>
+                    
+                    <div class="form-body">
+                        <div class="success-message" id="successMessage">
+                            <i class="fas fa-check-circle me-2"></i>
+                            Thank you! Your enquiry has been submitted successfully. We'll get back to you soon.
+                        </div>
+                        
+                        <form id="enquiryForm" novalidate>
+                            <div class="row mb-4">
+                                <div class="col-md-6 mb-3">
+                                    <label for="enquiryTypeId" class="form-label">
+                                        Enquiry Type <span class="required">*</span>
+                                    </label>
+                                    <select class="form-select" [(ngModel)]="enquiry.enquiryTypeId" id="enquiryTypeId" name="enquiryTypeId" disabled>
+                                        <!-- <option value="">Select enquiry type</option> -->
+                                        @for (item of typeList; track $index) {
+                                            <option [value]="item.typeId">{{item.typename}}</option>
+                                        }
+                                        
+                                    </select>
+                                    <div class="error-message" id="enquiryTypeError"></div>
+                                </div>
+                                
+                                <div class="col-md-6 mb-3">
+                                    <label for="enquiryStatusId" class="form-label">
+                                        Status <span class="required">*</span>
+                                    </label>
+                                    <select class="form-select" id="enquiryStatusId" name="enquiryStatusId" [(ngModel)]="enquiry.enquiryStatusId" required>
+                                        <!-- <option value="">Select status</option> -->
+                                        @for (item of statusList; track $index) {
+                                            <option [value]="item.statusId">{{item.status}}</option>
+                                        }
+                                    </select>
+                                    <div class="error-message" id="enquiryStatusError"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="customerName" class="form-label">
+                                    Customer Name <span class="required">*</span>
+                                </label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    <input type="text" class="form-control" id="customerName" name="customerName" [(ngModel)]="enquiry.customerName" 
+                                           placeholder="Enter your full name" disabled>
+                                </div>
+                                <div class="error-message" id="customerNameError"></div>
+                            </div>
+                            
+                            <div class="row mb-4">
+                                <div class="col-md-6 mb-3">
+                                    <label for="mobileNo" class="form-label">
+                                        Mobile Number <span class="required">*</span>
+                                    </label>
+                                    <div class="input-group">
+                                        <span class="input-group-text">
+                                            <i class="fas fa-phone"></i>
+                                        </span>
+                                        <input type="tel" class="form-control" id="mobileNo" name="mobileNo" [(ngModel)]="enquiry.mobileNo"
+                                               placeholder="Enter your mobile number" disabled>
+                                    </div>
+                                    <div class="error-message" id="mobileNoError"></div>
+                                </div>
+                                
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                        <input type="email" class="form-control" id="email" name="email" [(ngModel)]="enquiry.email" disabled 
+                                               placeholder="Enter your email address">
+                                    </div>
+                                    <div class="error-message" id="emailError"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="message" class="form-label">
+                                    Message <span class="required">*</span>
+                                </label>
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="message" name="message" [(ngModel)]="enquiry.message" 
+                                              style="height: 120px" placeholder="Please describe your enquiry in detail..." required></textarea>
+                                    <label for="message">
+                                        <i class="fas fa-comment-dots me-2"></i>Please describe your enquiry in detail...
+                                    </label>
+                                </div>
+                                <div class="error-message" id="messageError"></div>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="resolution" class="form-label">Resolution Notes</label>
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="resolution" name="resolution" [(ngModel)]="enquiry.resolution" 
+                                              style="height: 100px" placeholder="Additional notes or resolution details (optional)"></textarea>
+                                    <label for="resolution">
+                                        <i class="fas fa-clipboard-check me-2"></i>Additional notes or resolution details (optional)
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="d-grid gap-2 mb-3">
+                                <button type="button" (click)="onUpdate()" class="btn btn-submit">
+                                    <i class="fas fa-paper-plane me-2"></i>
+                                    <span id="submitText">Update Enquiry</span>
+                                    <div class="spinner-border spinner-border-sm ms-2 d-none" id="submitSpinner"></div>
+                                </button>
+                            </div>
+                            
+                            <div class="text-center text-muted">
+                                <small>
+                                    <i class="fas fa-clock me-1"></i>
+                                    We typically respond within 24 hours
+                                </small>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+    
+    

@@ -1,0 +1,96 @@
+<div class="parent">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <div class="form-container">
+                    <div class="form-header">
+                        <div class="card-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h1>View Enquiry</h1>
+                        <a [routerLink]="['/list']" class="link-style">Back to List page</a>
+                    </div>
+
+                    <div class="form-body">
+                        <form *ngIf="enquiry?.enquiryId" id="enquiryForm" novalidate>
+                            <div class="row mb-4">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Enquiry Type</label>
+                                    <select class="form-select" [(ngModel)]="enquiry.enquiryTypeId" name="enquiryTypeId" [disabled]="true">
+                                        @for (item of typeList; track $index) {
+                                            <option [value]="item.typeId">{{ item.typename }}</option>
+                                        }
+                                    </select>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Status</label>
+                                    <select class="form-select" [(ngModel)]="enquiry.enquiryStatusId" name="enquiryStatusId" disabled>
+                                        @for (item of statusList; track $index) {
+                                            <option [value]="item.statusId">{{ item.status }}</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label">Customer Name</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    <input type="text" class="form-control" [(ngModel)]="enquiry.customerName" name="customerName" readonly>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Mobile Number</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text">
+                                            <i class="fas fa-phone"></i>
+                                        </span>
+                                        <input type="tel" class="form-control" [(ngModel)]="enquiry.mobileNo" name="mobileNo" readonly>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Email Address</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                        <input type="email" class="form-control" [(ngModel)]="enquiry.email" name="email" readonly>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label">Message</label>
+                                <div class="form-floating">
+                                    <textarea class="form-control" [(ngModel)]="enquiry.message" name="message" style="height: 120px" readonly></textarea>
+                                    <label><i class="fas fa-comment-dots me-2"></i>Message</label>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label">Resolution Notes</label>
+                                <div class="form-floating">
+                                    <textarea class="form-control" [(ngModel)]="enquiry.resolution" name="resolution" style="height: 100px" readonly></textarea>
+                                    <label><i class="fas fa-clipboard-check me-2"></i>Resolution</label>
+                                </div>
+                            </div>
+
+                            <div class="text-center text-muted mt-4">
+                                <small>
+                                    <i class="fas fa-info-circle me-1"></i>
+                                    Fields are read-only for viewing purposes.
+                                </small>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
